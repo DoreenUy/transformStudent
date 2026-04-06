@@ -28,25 +28,64 @@
 				font-size: 2em;
 				padding: 5px;
 				font-weight: bold;
+				position:absolute;
+				left: 500px;
+				top: 100px;
+				transition-duration: 2s;
+				transform: rotate(-20deg);
+
 			}
-			#deck div:hover{
+			#deck:hover div:hover{
 				border: 3px solid yellow;
 			}
-			#deck div:first-child:hover{
+			#deck:hover div:first-child{
+
+transform-origin: bottom left;
+transform: rotate(-35deg);
+}
+
+#deck:hover div:nth-child(2){
+
+transform-origin: bottom left;
+transform: rotate(-25deg);
+}
+#deck:hover div:nth-child(3){
+
+transform-origin: bottom left;
+transform: rotate(-15deg);
+}
+#deck:hover div:nth-child(4){
+
+transform-origin: bottom left;
+transform: rotate(-5deg);
+}
+#deck:hover div:nth-child(5){
+
+transform-origin: bottom left;
+transform: rotate(5deg);
+}
+			#deck:hover div:first-child:hover{
 				background-color: yellow;
+
 			}
-			#deck div:nth-child(2):hover{
+			
+			#deck:hover div:nth-child(2):hover{
 				background-color: orange;
+
 			}
-			#deck div:nth-child(3):hover{
+			#deck:hover div:nth-child(3):hover{
 				background-color: green;
+
 			}
-			#deck div:nth-child(4):hover{
+			#deck:hover div:nth-child(4):hover{
 				background-color: blue;
+
 			}
-			#deck div:nth-child(5):hover{
+			#deck:hover div:nth-child(5):hover{
 				background-color: violet;
+
 			}
+			
 			a {
 				text-decoration: none;
 			}
